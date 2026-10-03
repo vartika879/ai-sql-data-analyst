@@ -1,7 +1,10 @@
 [project]
 name = "ai-sql-data-analyst"
 version = "0.1.0"
-description = "Add your description here"
+description = "An AI-powered SQL Data Analyst Agent for natural-language business analytics."
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-groq>=1.1.3",
+]
